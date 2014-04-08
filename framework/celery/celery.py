@@ -7,7 +7,7 @@ celery = Celery(include=[
                          'framework.email.email_tasks'
                         ])
 
-    # import celery config file
+# import celery config file
 celery.config_from_object('celeryconfig')
 
 if __name__ == '__main__':

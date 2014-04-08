@@ -1,0 +1,8 @@
+amqp==1.4.4
+anyjson==0.3.3
+billiard==3.3.0.16
+celery==3.1.10
+importlib==1.0.3
+kombu==3.0.14
+ordereddict==1.1
+pytz==2014.2

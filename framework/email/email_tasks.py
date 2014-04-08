@@ -26,6 +26,6 @@ def send_email(to=None, subject=None, message=None):
     s.starttls()
     s.ehlo()
     s.login('YOUR_USERNAME', 'YOUR_PASSWORD')
-    s.sendmail('hairycode-noreply@hairycode.org, [to], msg.as_string())
+    s.sendmail('hairycode-noreply@hairycode.org', [to], msg.as_string())
     s.quit()
     return True
