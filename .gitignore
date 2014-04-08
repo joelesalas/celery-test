@@ -1,0 +1,8 @@
+*.pyc
+.vagrant
+celery.log
+
+/bin
+/include
+/lib
+/lib64
